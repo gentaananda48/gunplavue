@@ -7,19 +7,19 @@
           <div class="footer-left text-left">
             <div class="footer-logo">
               <a href="#">
-                <img src="img/logo_website_shayna_white.png" alt />
+                <img src="img/logogunpla.png" alt />
               </a>
             </div>
             <ul>
-              <li>Address: Setra Duta, Bandung</li>
-              <li>Phone: +628 22081996</li>
-              <li>Email: hello.shayna@gmail.com</li>
+              <li>Jakarta, Indonesia</li>
+              <li>+62 85647356582</li>
+              <li>gunpla.store@gmail.com</li>
             </ul>
             <div class="footer-social">
-              <a href="#">
+              <a href="https://www.facebook.com/genta.anandarakhsy/">
                 <i class="fa fa-facebook"></i>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/laraveru_/">
                 <i class="fa fa-instagram"></i>
               </a>
               <a href="#">
@@ -31,7 +31,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 offset-lg-1">
+        <!--<div class="col-lg-3 offset-lg-1">
           <div class="footer-widget text-left">
             <h5>Information</h5>
             <ul>
@@ -49,10 +49,10 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div>-->
         <div class="col-lg-3">
           <div class="footer-widget text-left">
-            <h5>My Account</h5>
+            <!--<h5>My Account</h5>
             <ul>
               <li>
                 <a href="#">My Account</a>
@@ -66,7 +66,7 @@
               <li>
                 <a href="#">Shop</a>
               </li>
-            </ul>
+            </ul>-->
           </div>
         </div>
       </div>
@@ -76,8 +76,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="copyright-text">
-              Copyright &copy;
-              2019 - 2025 All rights reserved | Shayna
+              Copyright &copy; 2021 All rights reserved | Gunpla Store
             </div>
           </div>
         </div>
@@ -89,6 +88,6 @@
 
 <script>
 export default {
-    name: 'FooterShayna'
-}
+  name: "FooterShayna",
+};
 </script>
