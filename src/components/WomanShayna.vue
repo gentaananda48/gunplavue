@@ -53,15 +53,17 @@ export default {
   components: {
     carousel,
   },
+  // fungsi data mereturn objek product yang diisi otomatis menggunakan API
   data() {
     return {
       products: [],
       keranjangUser: [],
     };
   },
+  // Mount Axios API
   mounted() {
     axios
-      .get("http://shayna-backend.belajarkoding.com/api/products")
+      .get("http://127.0.0.1:8000/api/products")
       .then((res) => (this.products = res.data.data.data))
       // eslint-disable-next-line no-console
       .catch((err) => console.log(err));

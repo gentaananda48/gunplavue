@@ -169,7 +169,7 @@ export default {
       };
 
       axios
-        .post("http://shayna-backend.belajarkoding.com/api/checkout", checkoutData)
+        .post("http://192.168.0.167:8080/api/checkout", checkoutData)
         .then(() => this.$router.push("success"))
         // eslint-disable-next-line no-console
         .catch((err) => console.log(err));
